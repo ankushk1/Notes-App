@@ -9,7 +9,7 @@ Notes app using RestApi, The user registeration and login api with jwt authentic
 3. Login with email and password.  POST-http://localhost:8000/users/login and fill email and password in body/x-www-form-urlencoded. A jwt token will be generated, copy it.
 ![alternativetext](screenshots/login.png)
 
-*NOTE - FOR EVERY OPERATION U NEED THE TOKEN FOR VALIDATION*
+*NOTE - FOR EVERY OPERATION YOU NEED THE TOKEN FOR VALIDATION*
 
 4. To create a note POST- http://localhost:8000/notes/newNote.
 Go into header. Fill one column with content-type = application/json and other with x-access-token = copied token value.
